@@ -1,0 +1,10 @@
+//برنامج يطبع من '9' الى '0' 
+#include <stdio.h>
+
+int main(void)
+{
+ for (int i = '0'; i <= '9'; i++ )
+      printf("%c\n",i);
+
+  return 0;
+}
