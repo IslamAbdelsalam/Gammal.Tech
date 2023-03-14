@@ -3,9 +3,9 @@
 int main()
 {
 	char ans;
-    int i;
-	 while (1)
-	 {
+	int i;
+	while (1)
+	{
 		float arr[10];
 		for (i = 0; i < 10; i++)
 		{
@@ -13,19 +13,19 @@ int main()
 			if (arr[i] == 5)
 			{
 				printf("Found\n");
-                break;
+				break;
 			}
 		}
 
 		printf("Do you want to continue?(y/n)\n");
-		scanf(" %c",&ans);
+		scanf(" %c", &ans);
 
-//		printf("%c",ans);
+		//		printf("%c",ans);
 		if (ans == 'n')
 		{
 			printf("bye\n");
 			return 0;
 		}
-	 }
+	}
 	return 0;
 }

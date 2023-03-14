@@ -9,7 +9,7 @@ int main()
 	{
 		float arr[10];
 		char ans;
-                int counter = 0;
+		int counter = 0;
 
 		for (int i = 0; i < 10; i++)
 		{
@@ -19,11 +19,12 @@ int main()
 				counter++;
 			}
 		}
-                
-                if(counter > 0){
-                        printf("We found number 5 --> %i times\n",counter);
-                }
-                
+
+		if (counter > 0)
+		{
+			printf("We found number 5 --> %i times\n", counter);
+		}
+
 		printf("Do you want to continue?(y/n)\n");
 		scanf(" %c", &ans);
 
